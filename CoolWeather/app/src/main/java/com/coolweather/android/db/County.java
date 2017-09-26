@@ -1,10 +1,15 @@
 package com.coolweather.android.db;
 
+import android.database.DefaultDatabaseErrorHandler;
+import android.provider.ContactsContract;
+
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by jingtingchao on 2017/9/26.
  */
 
-public class County {
+public class County extends DataSupport {
 
     private int id;
 
